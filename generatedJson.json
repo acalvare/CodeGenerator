@@ -1,0 +1,35 @@
+{
+  "className": "exampleClass",
+  "accessModfier": "public",
+  "classModifier": "none",
+  "constructors": [
+    "default"
+  ],
+  "fields": [{
+    "fieldName": "exampleField",
+    "fieldType": "int",
+    "accessModifier": "public",
+    "fieldModifier": null,
+    "getter": true,
+    "setter": true
+  }],
+  "methods": [
+    {
+      "methodName": "exampleMethod",
+      "methodType": "int",
+      "accessModifier": "public",
+      "methodModifier": "",
+      "parameters": [
+        {
+          "fieldName": null,
+          "fieldType": null,
+          "accessModifier": null,
+          "fieldModifier": null,
+          "getter": false,
+          "setter": false
+        }
+      ]
+    }
+  ],
+  "isInterface": false
+}
