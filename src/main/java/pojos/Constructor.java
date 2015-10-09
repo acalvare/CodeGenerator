@@ -16,6 +16,8 @@ public class Constructor {
         this.className = className;
     }
 
+
+    //Move this to the JavaConverter class
     public String toJava(){
         StringBuilder builder = new StringBuilder();
         if(type.equalsIgnoreCase(DEFAULT)){

@@ -44,6 +44,7 @@ public class JavaConverter {
 
     }
 
+    //returns a method name that is correct case
    public String getMethodName(String fieldName){
        if(fieldName.length() > 1) {
            return fieldName.substring(0, 1).toUpperCase() + fieldName.substring(1);

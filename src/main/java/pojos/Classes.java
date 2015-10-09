@@ -15,20 +15,7 @@ public class Classes {
     String[] constructors;
     Fields[] fields;
     Methods[] methods;
-
-/*    public String toJava(){
-        StringBuilder builder = new StringBuilder();
-         builder.append(accessModfier+(isInterface ? " interface ": " class ")+className+" {\n\t");
-        for(String constructor : constructors) {
-            builder.append(new Constructor(constructor,fields,className).toJava()+"\n\n\t");
-        }
-        for(Fields field : fields){
-            builder.append(field.toJava()+"\n");
-        }
-        builder.append("\n}");
-        return builder.toString();
-    }*/
-
+    
     public String getClassName() {
         return className;
     }
